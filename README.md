@@ -25,16 +25,7 @@ This website showcases the services, expertise, and customer testimonials for We
 
 ## GitHub Pages Deployment
 
-This site is configured to be deployed on GitHub Pages. To deploy:
-
-1. Create a new GitHub repository
-2. Push this code to the repository
-3. Go to the repository settings
-4. Navigate to the "Pages" section
-5. Select the main branch as the source
-6. Click "Save"
-
-The site will be available at `https://[your-username].github.io/[repository-name]/`
+The site will be available at `https://khazanahdigital.github.io/272axcv/`
 
 ## Local Development
 
