@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>We Care Auto | Professional Auto Repair Services | M&B Auto Group</title>
+    <meta name="description" content="We Care Auto provides professional automotive repair and maintenance services with a focus on quality and customer satisfaction. A proud member of M&B Auto Group.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="sticky-top">
+        <!-- Top Bar -->
+        <div class="top-bar bg-dark text-white py-2">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 d-none d-lg-block">
+                        <div class="d-flex align-items-center">
+                            <div class="me-4">
+                                <i class="fas fa-phone-alt me-2"></i>
+                                <span>(555) 123-4567</span>
+                            </div>
+                            <div>
+                                <i class="fas fa-envelope me-2"></i>
+                                <span>info@wecareauto.com</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="d-flex justify-content-lg-end justify-content-center">
+                            <div class="me-4">
+                                <i class="fas fa-clock me-2"></i>
+                                <span>Mon-Fri: 8AM-6PM | Sat: 9AM-4PM</span>
+                            </div>
+                            <div class="social-icons">
+                                <a href="#" class="me-2"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="me-2"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="me-2"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Main Navigation -->
+        <nav class="navbar navbar-expand-lg bg-white">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <div class="d-flex align-items-center">
+                        <div class="logo-text">
+                            <span class="brand-name">We Care Auto</span>
+                            <span class="brand-tagline">by M&B Auto Group</span>
+                        </div>
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonials">Testimonials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item ms-lg-3">
+                            <a href="#appointment" class="btn btn-primary rounded-pill">Book Appointment</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 hero-content">
+                    <h1 class="display-4 fw-bold mb-3">Expert Auto Repair You Can Trust</h1>
+                    <p class="lead mb-2">Professional automotive repair and maintenance services with a focus on quality and customer satisfaction.</p>
+                    <p class="mb-4"><span class="badge bg-secondary">A proud member of M&B Auto Group</span></p>
+                    <div class="d-flex flex-wrap gap-2">
+                        <a href="#services" class="btn btn-primary btn-lg rounded-pill">Our Services</a>
+                        <a href="#appointment" class="btn btn-outline-primary btn-lg rounded-pill">Book Appointment</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-5 mt-lg-0">
+                    <div class="hero-image">
+                        <img src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80" alt="Mechanic working on a car" class="img-fluid rounded-4 shadow-lg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-choose-us py-5">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2 class="section-title">Why Choose We Care Auto</h2>
+                <p class="section-subtitle">The M&B Auto Group Difference</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="feature-card text-center h-100">
+                        <div class="feature-icon mb-3">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h3 class="feature-title">Expert Technicians</h3>
+                        <p class="feature-text">Our ASE-certified technicians have years of experience and ongoing training to handle any car problem.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="feature-card text-center h-100">
+                        <div class="feature-icon mb-3">
+                            <i class="fas fa-cog"></i>
+                        </div>
+                        <h3 class="feature-title">Quality Parts</h3>
+                        <p class="feature-text">We use only high-quality OEM and aftermarket parts to ensure your vehicle's performance and longevity.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="feature-card text-center h-100">
+                        <div class="feature-icon mb-3">
+                            <i class="fas fa-thumbs-up"></i>
+                        </div>
+                        <h3 class="feature-title">Satisfaction Guaranteed</h3>
+                        <p class="feature-text">We stand behind our work with comprehensive warranties and a commitment to customer satisfaction.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section py-5 bg-light">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-subtitle">Comprehensive Auto Repair & Maintenance</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card h-100">
+                        <div class="service-image">
+                            <img src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="Engine Repair" class="img-fluid">
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title">Engine Repair</h3>
+                            <p class="service-text">Complete diagnostics and repair for all engine problems.</p>
+                            <a href="#appointment" class="service-link">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card h-100">
+                        <div class="service-image">
+                            <img src="https://images.pexels.com/photos/3807319/pexels-photo-3807319.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Brake Service" class="img-fluid">
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title">Brake Service</h3>
+                            <p class="service-text">Inspection, repair, and replacement of brake system components.</p>
+                            <a href="#appointment" class="service-link">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card h-100">
+                        <div class="service-image">
+                            <img src="https://images.pexels.com/photos/8985517/pexels-photo-8985517.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Oil Change" class="img-fluid">
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title">Oil Change</h3>
+                            <p class="service-text">Regular maintenance with quality oil and filter replacement.</p>
+                            <a href="#appointment" class="service-link">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card h-100">
+                        <div class="service-image">
+                            <img src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1160&q=80" alt="Tire Service" class="img-fluid">
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title">Tire Service</h3>
+                            <p class="service-text">Tire rotation, balancing, repair, and replacement.</p>
+                            <a href="#appointment" class="service-link">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-5">
+                <a href="#services-full" class="btn btn-outline-primary rounded-pill">View All Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="about-image">
+                        <img src="https://images.unsplash.com/photo-1613214149922-f1809c99b414?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="Auto repair shop" class="img-fluid rounded-4 shadow-lg">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <div class="section-header mb-4">
+                            <h2 class="section-title">About We Care Auto</h2>
+                            <p class="section-subtitle">A Proud Member of M&B Auto Group</p>
+                        </div>
+                        <p class="mb-3">We Care Auto was founded in 2005 by John Mitchell, a certified master technician with over 20 years of experience in the automotive industry. John's vision was to create an auto repair shop that combined technical expertise with exceptional customer service.</p>
+                        <p class="mb-3">What started as a small two-bay garage has grown into a full-service auto repair facility with state-of-the-art equipment and a team of ASE-certified technicians. In 2015, We Care Auto became part of the prestigious M&B Auto Group, allowing us to expand our services while maintaining our commitment to quality.</p>
+                        <p class="mb-4">Today, We Care Auto is proud to be one of the most trusted names in automotive repair in the region, serving thousands of satisfied customers each year as a key member of the M&B Auto Group family.</p>
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="certification-badge me-3">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/ASE_logo.svg/1200px-ASE_logo.svg.png" alt="ASE Certified" height="60">
+                            </div>
+                            <div class="certification-badge">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/American_Automobile_Association_logo.svg/1200px-American_Automobile_Association_logo.svg.png" alt="AAA Approved" height="60">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section py-5 bg-light">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2 class="section-title">What Our Customers Say</h2>
+                <p class="section-subtitle">Trusted by Thousands of Satisfied Customers</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="testimonial-card h-100">
+                        <div class="testimonial-rating mb-3">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text mb-4">"The team at We Care Auto did an amazing job fixing my car's AC system. Fair pricing and excellent service. Highly recommend!"</p>
+                        <div class="testimonial-author">
+                            <h4 class="author-name">Sarah Johnson</h4>
+                            <p class="author-title">Loyal Customer</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="testimonial-card h-100">
+                        <div class="testimonial-rating mb-3">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text mb-4">"I've been bringing my vehicles here for years. They're always honest about what needs to be fixed and what can wait. Great service!"</p>
+                        <div class="testimonial-author">
+                            <h4 class="author-name">Michael Rodriguez</h4>
+                            <p class="author-title">Regular Customer</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="testimonial-card h-100">
+                        <div class="testimonial-rating mb-3">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text mb-4">"After trying several mechanics in town, I finally found We Care Auto. Their attention to detail and quality work is unmatched."</p>
+                        <div class="testimonial-author">
+                            <h4 class="author-name">Jennifer Williams</h4>
+                            <p class="author-title">New Customer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Appointment Section -->
+    <section id="appointment" class="appointment-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="contact-info">
+                        <div class="section-header mb-4">
+                            <h2 class="section-title">Contact Information</h2>
+                            <p class="section-subtitle">We're Here to Help</p>
+                        </div>
+                        
+                        <div class="contact-item mb-4">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Location</h4>
+                                <p>123 Auto Street<br>Anytown, ST 12345</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item mb-4">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Phone</h4>
+                                <p>(555) 123-4567</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item mb-4">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <p>info@wecareauto.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Hours of Operation</h4>
+                                <p>Monday - Friday: 8:00 AM - 6:00 PM<br>
+                                Saturday: 9:00 AM - 4:00 PM<br>
+                                Sunday: Closed</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="appointment-form-container">
+                        <div class="section-header mb-4">
+                            <h2 class="section-title">Book an Appointment</h2>
+                            <p class="section-subtitle">Schedule Your Service Today</p>
+                        </div>
+                        
+                        <form id="appointmentForm" class="appointment-form">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="Full Name" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" class="form-control" placeholder="Email Address" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="tel" class="form-control" placeholder="Phone Number" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <select class="form-select" required>
+                                        <option value="" selected disabled>Select Service</option>
+                                        <option value="Engine Repair">Engine Repair</option>
+                                        <option value="Brake Service">Brake Service</option>
+                                        <option value="Oil Change">Oil Change</option>
+                                        <option value="Tire Service">Tire Service</option>
+                                        <option value="AC Service">AC Service</option>
+                                        <option value="Electrical Repair">Electrical Repair</option>
+                                        <option value="Scheduled Maintenance">Scheduled Maintenance</option>
+                                        <option value="Other">Other</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="date" class="form-control" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <select class="form-select" required>
+                                        <option value="" selected disabled>Preferred Time</option>
+                                        <option value="Morning">Morning</option>
+                                        <option value="Afternoon">Afternoon</option>
+                                        <option value="Evening">Evening</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control" rows="4" placeholder="Additional Information" required></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary w-100 rounded-pill">Submit Request</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer-section bg-dark text-white">
+        <div class="container py-5">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-about">
+                        <h3 class="footer-title">We Care Auto</h3>
+                        <p class="mb-3">Professional auto repair and maintenance services you can trust.</p>
+                        <p class="mb-3">A proud member of M&B Auto Group</p>
+                        <div class="footer-social">
+                            <a href="#" class="me-2"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="me-2"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="me-2"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2 col-md-6">
+                    <div class="footer-links">
+                        <h3 class="footer-title">Quick Links</h3>
+                        <ul class="list-unstyled">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#testimonials">Testimonials</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-links">
+                        <h3 class="footer-title">Our Services</h3>
+                        <ul class="list-unstyled">
+                            <li><a href="#services">Engine Repair</a></li>
+                            <li><a href="#services">Brake Service</a></li>
+                            <li><a href="#services">Oil Change</a></li>
+                            <li><a href="#services">Tire Service</a></li>
+                            <li><a href="#services">AC Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-contact">
+                        <h3 class="footer-title">Contact Info</h3>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><i class="fas fa-map-marker-alt me-2"></i> 123 Auto Street, Anytown, ST 12345</li>
+                            <li class="mb-2"><i class="fas fa-phone-alt me-2"></i> (555) 123-4567</li>
+                            <li class="mb-2"><i class="fas fa-envelope me-2"></i> info@wecareauto.com</li>
+                            <li><i class="fas fa-clock me-2"></i> Mon-Fri: 8AM-6PM | Sat: 9AM-4PM</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom py-3 border-top border-secondary">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-center text-md-start">
+                        <p class="mb-md-0">&copy; 2025 We Care Auto. A division of M&B Auto Group. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <p class="mb-0">Designed with <i class="fas fa-heart text-danger"></i> for quality service</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
